@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css" />
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-09b459cf485d4b1f3304947240314c05.css?vsn=d" />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "primary-color": "#ABEF5F",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      * {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+
+</head>
+<body>
+    <!-- header section -->
+    <header class="bg-gradient-to-t to-[#ffffff0c] from-[#FFFFFFFF]">
+
+        <!-- navbar section -->
+         <nav>
+            <nav class="mx-20">
+                <div class="navbar !w-[100%]">
+                  <div class="navbar-start flex x-auto gap-[200px]">
+                    <!-- logo section  -->
+                    <div class="flex items-center">
+                      <div
+                        class="flex justify-center items-center h-8 w-8 rounded-full border bg-primary-color mr-2">
+                        <i class="fa-light fa-arrow-up-right font-bold"></i>
+                      </div>
+                      <p class="text-[28px] font-extrabold lg:text-[32px]">Rinterio</p>
+                    </div>
+        
+                    <!-- dropdown section  -->
+                    <div class="dropdown h-12 w-12 lg:hidden">
+                      <div
+                        tabindex="0"
+                        role="button"
+                        class="btn btn-ghost lg:hidden border-[#E9E9E9] rounded-full">
+                        <i class="fa-light fa-bars mr-0"></i>
+                      </div>
+                      <ul
+                        tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 p-2 shadow right-1">
+                        <li><a class="font-extrabold text-[16px]">Home</a></li>
+                        <li><a class="text-[#737373]">Services</a></li>
+                        <li><a class="text-[#737373]">Portfolio</a></li>
+                        <li><a class="text-[#737373]">Blogs</a></li>
+                        <li><a class="text-[#737373]">Contact Us</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                      <li><a class="font-extrabold text-[16px]">Home</a></li>
+                      <li><a class="text-[#737373]">Services</a></li>
+                      <li><a class="text-[#737373]">Portfolio</a></li>
+                      <li><a class="text-[#737373]">Blogs</a></li>
+                      <li><a class="text-[#737373]">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="navbar-end space-x-4">
+                    <!-- <a class="btn">Button</a> -->
+                    <div
+                      class="hidden lg:flex lg:h-[38px] lg:w-[38px] lg:bg-white lg:justify-center lg:items-center lg:rounded-full lg:border">
+                      <i class="fa-thin fa-magnifying-glass"></i>
+                    </div>
+                    <div
+                      class="hidden lg:flex lg:h-[38px] lg:w-[38px] lg:bg-white lg:justify-center lg:items-center lg:rounded-full lg:border">
+                      <i class="fa-thin fa-cart-shopping"></i>
+                    </div>
+                    <div
+                      class="hidden lg:bg-primary-color lg:rounded-[32px] lg:py-3 lg:px-5 lg:flex lg:gap-2">
+                      <button class="font-extrabold text-xl">Book Consult</button>
+                      <div
+                        class="bg-black flex justify-center items-center h-7 w-7 rounded-full">
+                        <i class="fa-light fa-arrow-up-right font-bold text-white"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+         </nav>
+
+
+         <!-- Banner section -->
+
+         <section class="flex flex-col justify-center w-[90%] mx-auto mt-10">
+            <img src="assets/banner.png" class="w-[90%] lg:w-[50%] mx-auto" />
+        <h1
+          class="font-extrabold text-[28px] lg:w-full w-[90%] lg:text-[64px] text-center text-[#212121] mt-6 mx-auto">
+          A barn house of this design has a striking appearance
+        </h1>
+        <p class="text-[#494949] text-center lg:w-[80%] mx-auto mt-6">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and
+          large windows that flood the space with natural light.
+        </p>
+        <div
+          class="w-[90%] bg-[#ABEF5F80] h-[52px] rounded-[32px] lg:w-[216px] mx-auto flex justify-center items-center py-3 px-6 border border-primary-color gap-2 mt-8 mb-[100px] hover:cursor-pointer">
+          <span class="font-bold text-xl">View Details</span>
+          <div
+            class="flex justify-center items-center h-8 w-8 rounded-full border border-primary-color bg-primary-color mr-2">
+            <i class="fa-light fa-arrow-up-right font-bold"></i>
+          </div>
+        </div>
+
+         </section>
+
+    </header>
+</body>
+</html>
